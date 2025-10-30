@@ -131,51 +131,43 @@ lung_cancer_app/
 ```bash
 git clone https://github.com/yourusername/Lung_Cancer_Detection.git
 cd Lung_Cancer_Detection
+```
 
-🔹 Step 2: Install Dependencies
+### 🔹 Step 2: Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
-🔹 Step 3: Run Flask Server
+### 🔹 Step 3: Run Flask Server
+```bash
 cd backend
 python app.py
+```
 
-🔹 Step 4: Launch Frontend
+### 🔹 Step 4: Launch Frontend
+```bash
+- Open frontend/index.html in a browser
+- Upload an image
+- View prediction and confidence score
+```
 
-Open frontend/index.html in a browser
+## 🧰 Technologies Used
 
-Upload an image
+* Python 3.x
+* TensorFlow / Keras
+* PySwarms (for PSO optimization)
+* NumPy / Pandas / OpenCV
+* Matplotlib / Seaborn
+* Flask
+* VS Code
 
-View prediction and confidence score
+## 🚀 Future Enhancements
+* Integrate Grad-CAM visualization to show *why* the model made its prediction.
+* Add a voice feedback system for results.
+* Deploy the application on Render, AWS, or Hugging Face Spaces.
+* Compare PSO performance with other meta-heuristic algorithms like Genetic Algorithm (GA).
 
-🧰 Technologies Used
-
-Python 3.x
-
-TensorFlow / Keras
-
-PySwarms (for PSO optimization)
-
-NumPy / Pandas / OpenCV
-
-Matplotlib / Seaborn
-
-Streamlit
-
-VS Code
-
-🚀 Future Enhancements
-
-Integrate Grad-CAM visualization
-
-Add voice feedback system
-
-Deploy on Render / AWS / Hugging Face Spaces
-
-Compare PSO with Genetic Algorithm (GA)
-
-👩‍💻 Authors
-
-Suhani Gahukar, Sakshi Bhoyar, Sukalp Warhekar
-Branch: B.Tech in Computer Science & Engineering (AI & ML)**
-Year: 2025
-Year: 2025
+## 👩‍💻 Authors
+#### Suhani Gahukar, Sakshi Bhoyar, Sukalp Warhekar
+#### Branch: B.Tech in Computer Science & Engineering (AI & ML)
+#### Year: 2025
