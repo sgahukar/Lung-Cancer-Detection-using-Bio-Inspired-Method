@@ -25,42 +25,6 @@ The web-based application allows users to:
 
 ---
 
-## 🧩 Project Architecture
-
-lung_cancer_app/
-│
-├── app.py # Main Streamlit app (frontend)
-│
-├── backend/ # Core backend logic
-│ ├── model_loader.py # Loads CNN or PSO-optimized model
-│ ├── preprocess.py # Image resizing & normalization
-│ ├── predictor.py # Model prediction & confidence output
-│ └── evaluation.py # Optional: accuracy, confusion matrix, etc.
-│
-├── models/ # Saved trained models
-│ ├── cnn_model.h5 # Basic CNN model
-│ ├── cnn_pso_model.h5 # PSO-enhanced CNN model
-│
-├── dataset/ # Dataset folder
-│ ├── lung dataset/ # Main dataset
-│ │ ├── Bengin cases/
-│ │ ├── Malignant cases/
-│ │ └── Normal cases/
-│ └── Test cases/ # External test samples
-│
-├── utils/ # Helper modules
-│ ├── feedback_generator.py # Generates feedback & suggestions
-│ └── visualization.py # (optional) Grad-CAM or charts
-│
-├── reports/ # Training & testing results
-│ ├── model_performance.txt
-│ ├── confusion_matrix.png
-│ └── training_history.png
-│
-├── requirements.txt # All required libraries
-└── README.md # Project documentation
-
----
 
 ## 🧩 Modules Description
 
@@ -171,3 +135,4 @@ python app.py
 #### Suhani Gahukar, Sakshi Bhoyar, Sukalp Warhekar
 #### Branch: B.Tech in Computer Science & Engineering (AI & ML)
 #### Year: 2025
+
