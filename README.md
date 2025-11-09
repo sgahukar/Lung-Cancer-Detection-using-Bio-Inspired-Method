@@ -29,7 +29,7 @@ The web-based application allows users to:
 ## 🧩 Modules Description
 
 ### 1️⃣ Dataset
-- **Name:** IQ-OTHNCCD Lung Cancer Dataset  
+- **Name:** [Kaggle – IQ-OTHNCCD Lung Cancer Dataset](https://www.kaggle.com/datasets/adityamahimkar/iqothnccd-lung-cancer-dataset?select=The+IQ-OTHNCCD+lung+cancer+dataset)  
 - **Classes:**  
   - 🟢 Normal Cases  
   - 🟡 Benign Cases  
@@ -135,4 +135,5 @@ python app.py
 #### Suhani Gahukar, Sakshi Bhoyar, Sukalp Warhekar
 #### Branch: B.Tech in Computer Science & Engineering (AI & ML)
 #### Year: 2025
+
 
